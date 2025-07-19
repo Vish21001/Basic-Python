@@ -1,0 +1,34 @@
+mynumlist1 = [4, 9, 8, 56, 32, 5, 3, 5, 66, 2, 5]
+mynumlist2 = [912, 8, 545, 5, 3, 5123, 2, 5]
+mynumlist3 = [23,23.4,4734.56,533345.43,"apple",898798]
+mynumlist4 = []
+mynumlist5 = [mynumlist1, mynumlist2, mynumlist3, mynumlist4]
+
+
+for i in range(len(mynumlist5)):
+  score = 1
+  
+  print(len(mynumlist1))
+  print(len(mynumlist2))
+  print(len(mynumlist3))
+  print(len(mynumlist4))
+  print(len(mynumlist5))
+  print(" ")
+  
+  if len(mynumlist1) < score:
+    print(mynumlist1)
+  elif():
+    
+    mynumlist1.clear()
+    
+  if len(mynumlist2) < score:
+    print(len(mynumlist2))
+  elif():
+    mynumlist2.clear()
+    
+  if len(mynumlist2) < score:
+    print(len(mynumlist2))
+  elif():
+    mynumlist2.clear()
+
+    
