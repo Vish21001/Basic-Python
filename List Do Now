@@ -1,0 +1,6 @@
+mynumList = [4, 9, 8, 56, 32, 5, 3, 5, 66, 2, 5]
+my_num_list = [912, 8, 545, 5, 3, 5123, 2, 5]
+MYnum_list = [23,23.4,4734.56,533345.43,"apple",898798]
+myemptylist = []
+mycontainerlist = [mynumList, my_num_list, MYnum_list, myemptylist]
+print(mycontainerlist)
