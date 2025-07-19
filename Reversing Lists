@@ -1,0 +1,7 @@
+myList = [1,4,56,78,68909,3824293743,78]
+list_reverse = []
+
+for i in range(len(myList)):
+  list_reverse.insert(0,myList[i])
+  
+print(list_reverse)
