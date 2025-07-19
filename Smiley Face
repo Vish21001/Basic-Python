@@ -1,0 +1,52 @@
+import turtle
+t=turtle.Turtle()
+t.shape("turtle")
+t.color("red")
+
+
+# functions
+def draw_square(side_length):
+  t.color("blue")
+  t.begin_fill()
+  for i in range(4):
+    t.fd(side_length)
+    t.rt(90)
+  t.end_fill()
+  
+def draw_triangle(side_length):
+  t.begin_fill()
+  t.rt(180)
+  for i in range(3):
+    t.fd(side_length)
+    t.rt(120)
+    t.color("red")
+  t.end_fill()
+    
+def draw_circle(radius,extent):
+  t.color("yellow")
+  t.begin_fill()
+  t.circle(radius, extent)
+  t.end_fill()
+  t.color("black")
+  t.penup()
+  t.goto(-75,75)
+  t.pendown()
+  t.rt(90)
+  t.circle(75,180)
+  t.rt(90)
+  
+# actual running code
+draw_circle(100,360)
+
+
+t.penup()
+t.goto(50,150)
+t.pendown()
+
+draw_triangle(30)
+
+t.penup()
+t.goto(-30,150)
+t.pendown()
+
+draw_square(30)
