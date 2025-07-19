@@ -1,0 +1,19 @@
+# def age():
+#   years = input ("How many years old are you?")
+#   age1 = int(years)*365
+#   print("You are " +str(age1)+ " days old.")
+  
+# age()
+
+def multiplication_calc():
+  number1 = input("Write a one or two digit number.")
+  number2 = input("Write a one or two digit number.")
+  product = int(number1)*int(number2)
+  if product > 100:
+    difference = product - 100
+    print(str(product)+"  is" +str(difference)+ " more than 100");
+  else:
+    difference1 = 100 - product
+    print(str(product)+" is " +str(difference1)+ " less than 100.");
+      
+multiplication_calc()
