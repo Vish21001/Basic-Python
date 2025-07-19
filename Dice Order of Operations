@@ -1,0 +1,15 @@
+import random
+x=random.randint(1,6)
+print("My first variable is "+str(x));
+y=random.randint(1,6)
+print("My second variable is "+str(y));
+
+sum = x + y
+difference = x - y
+product = x * y
+quotient = x / y
+
+print("My sum is "+str(sum));
+print("My difference is "+str(difference));
+print("My product is "+str(product));
+print("My quotient is "+str(quotient));
