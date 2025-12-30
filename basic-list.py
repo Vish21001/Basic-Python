@@ -1,0 +1,13 @@
+numbers = [5, 2, 7, 5, 1, 4]
+numbers.append(20)
+print(numbers)
+numbers.insert(0, 10)
+print(numbers)
+numbers.remove(7)
+print(numbers)
+numbers.pop()
+print(numbers)
+print(numbers.index(5))
+print(50 in numbers)
+numbers.clear()
+print(numbers)
